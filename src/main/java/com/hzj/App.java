@@ -9,7 +9,5 @@ public class App {
         StuServices stuServices = context.getBean("stuServicesImp", StuServices.class);
         stuServices.getAllStu();
 
-        PropertiesBeanDefinitionReader
-
     }
 }
